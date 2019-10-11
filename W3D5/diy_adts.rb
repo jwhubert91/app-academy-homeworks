@@ -50,3 +50,31 @@ end
 # p new_queue.dequeue
 # p new_queue.peek
 
+class Map
+    def initialize
+        @map = Array.new
+    end
+
+    def set(key,value)
+        pair = []
+        @map.each do |el|
+            if el.first == key
+                pair = el
+        end
+
+        
+        
+    end
+
+    def get(key)
+        
+    end
+
+    def delete(key)
+
+    end
+
+    def show
+
+    end
+end
